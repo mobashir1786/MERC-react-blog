@@ -1,0 +1,121 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+/* all tags in whole website  */
+button{
+  cursor:pointer;
+}
+div{
+  color: tomato;
+}
+
+/* nav bar  */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color:tomato;
+  padding:0vw 3vw;
+  flex-wrap: wrap;
+}
+.navRight{
+  display: flex;
+}
+.navLeft{
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  margin:0.4vw 2vw;
+  font-size: 20px;
+}
+
+.home{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+
+/* header  */
+.header{
+  margin: 20px;
+  padding: 20px 200px;
+  background-color: tomato;
+  border-radius: 20px;
+}
+.color{
+  color: white;
+}
+
+/* routes  */
+.same{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* cards  */
+.card{
+  width: 70vw;
+  height: 400px;
+  display: flex;
+  border: 10px solid tomato;
+  border-radius: 50px;
+  margin: 20px;
+}
+.cardLeft{
+  text-align: center;
+  width: 50%;
+  padding: 30px;
+}
+.cardRight{
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+}
+
+/* create cards  */
+.createCard{
+  width: 32vw;
+  padding: 2vw;
+  border:10px solid tomato;
+  border-radius: 50px;
+  margin: 100px;
+}
+
+/* login signup  */
+.ls-btn{
+  background-color: tomato;
+  font-size: 20px;
+  width: 40%;
+  height: 40px;
+  margin-top: 30px;
+  padding: 0px 10px;
+}
+.l-btn{
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.s-btn{
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.loginsignup{
+  width: 32vw;
+  padding: 2vw;
+  border:10px solid tomato;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+.login{
+  margin-top: 20px;
+}
+.signup{
+  margin-top: 20px;
+}
